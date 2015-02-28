@@ -66,9 +66,12 @@ h2{
   color: #333;
 }
 
-#featured{
-
-}
+// .nav-bar{
+//   position: fixed;
+//   margin-left: auto;
+//   margin-right: auto;
+//   z-index: 9999;
+// }
 
 .centered-text {
   text-align: center;
@@ -239,14 +242,51 @@ h2{
 }
 
 // hr{
-//   border:0;
-//   height:1px;
 //   background-image:-webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
 //   background-image:-moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
 //   background-image:-ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
 //   background-image:-o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));opacity:0.8;
 // }
 
+//RSVP Button
+.fancy.button {
+  background-color: #fff;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFEFEFEF');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(73%, #f7f7f7), color-stop(100%, #efefef));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 73%, #efefef 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 73%, #efefef 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #f7f7f7 73%, #efefef 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #f7f7f7 73%, #efefef 100%);
+  border: 1px solid rgba(52, 73, 94, 0.2);
+  color: rgba(52, 152, 219, 0.7);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.fancy.button:hover {
+  color: #3498db;
+  background-color: #fff;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFEDEDED');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(73%, #efefef), color-stop(100%, #ededed));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #efefef 73%, #ededed 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #efefef 73%, #ededed 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #efefef 73%, #ededed 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #efefef 73%, #ededed 100%);
+  border-color: rgba(52, 73, 94, 0.3);
+  -webkit-box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
+  -moz-box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
+  box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
+}
+.fancy.button:active {
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
+}              
+
+
+//END David's stuff
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
@@ -468,6 +508,8 @@ $hr-border-width: 1px;
 $hr-border-style: dotted;
 $hr-border-color: $dark-blue;
 $hr-margin: rem-calc(20);
+
+
 
 // We use these to style lists
 // $list-font-family: $paragraph-font-family;
