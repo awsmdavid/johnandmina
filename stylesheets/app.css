@@ -21,18 +21,23 @@ h2 {
 }
 
 /* line 94, ../scss/_settings.scss */
-.countdown {
-  font-size: 32px;
+#countdown {
+  font-size: 22px;
 }
 
 /* line 98, ../scss/_settings.scss */
+#countdowndays {
+  color: #3399FF;
+}
+
+/* line 103, ../scss/_settings.scss */
 .quote {
   background: #F2F2F2;
   padding: 15px 20px 5px 15px;
   border-radius: 5px;
   margin-bottom: 30px;
 }
-/* line 103, ../scss/_settings.scss */
+/* line 108, ../scss/_settings.scss */
 .quote:after {
   content: '';
   width: 0px;
@@ -45,12 +50,12 @@ h2 {
   left: 20px;
 }
 
-/* line 116, ../scss/_settings.scss */
+/* line 121, ../scss/_settings.scss */
 .johnandmina {
   margin-left: 25px;
   margin-bottom: 80px;
 }
-/* line 119, ../scss/_settings.scss */
+/* line 124, ../scss/_settings.scss */
 .johnandmina .photo {
   background-color: #ccc;
   border-radius: 100px;
@@ -59,25 +64,25 @@ h2 {
   float: left;
   margin-right: 10px;
 }
-/* line 127, ../scss/_settings.scss */
+/* line 132, ../scss/_settings.scss */
 .johnandmina p {
   position: relative;
   top: 5px;
   text-transform: uppercase;
 }
-/* line 131, ../scss/_settings.scss */
+/* line 136, ../scss/_settings.scss */
 .johnandmina p:nth-child(2) {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 0;
 }
-/* line 136, ../scss/_settings.scss */
+/* line 141, ../scss/_settings.scss */
 .johnandmina p:nth-child(3) {
   font-size: 14px;
   color: #777;
 }
 
-/* line 144, ../scss/_settings.scss */
+/* line 149, ../scss/_settings.scss */
 .gallery img:hover {
   opacity: 0.5;
   -webkit-transition: 0.3s ease;
@@ -87,44 +92,44 @@ h2 {
   transition: 0.3s ease;
 }
 
-/* line 153, ../scss/_settings.scss */
+/* line 158, ../scss/_settings.scss */
 .gallery li {
   height: 140px;
   overflow: hidden;
 }
 
-/* line 159, ../scss/_settings.scss */
+/* line 164, ../scss/_settings.scss */
 .path-container {
   margin-top: 50px;
   margin-bottom: 70px;
 }
 
-/* line 163, ../scss/_settings.scss */
+/* line 168, ../scss/_settings.scss */
 .path-container .path-item h1 {
   text-align: center;
   margin-bottom: 70px;
 }
 
-/* line 167, ../scss/_settings.scss */
+/* line 172, ../scss/_settings.scss */
 .path-container .path-item h3 {
   margin-bottom: 10px;
   line-height: 1.15;
 }
 
-/* line 171, ../scss/_settings.scss */
+/* line 176, ../scss/_settings.scss */
 .path-container .path-item p {
   font-size: 1rem;
   line-height: 1.7;
   margin-bottom: 25px;
 }
 
-/* line 176, ../scss/_settings.scss */
+/* line 181, ../scss/_settings.scss */
 .path-container .path-item a {
   font-weight: bold;
   font-size: 0.875rem;
 }
 
-/* line 180, ../scss/_settings.scss */
+/* line 185, ../scss/_settings.scss */
 .path-container .path-item .circle {
   background-color: #ccc;
   background-size: 156px 156px;
@@ -136,17 +141,17 @@ h2 {
   z-index: 2;
 }
 
-/* line 190, ../scss/_settings.scss */
+/* line 195, ../scss/_settings.scss */
 .path-container .path-item .circle.circle-left {
   left: -7px;
 }
 
-/* line 193, ../scss/_settings.scss */
+/* line 198, ../scss/_settings.scss */
 .path-container .path-item .circle.circle-right {
   right: -10px;
 }
 
-/* line 196, ../scss/_settings.scss */
+/* line 201, ../scss/_settings.scss */
 .path-container .line {
   background: #ddd;
   width: 2px;
@@ -162,36 +167,36 @@ h2 {
  medium timeline styles
 ------------------------------------*/
 @media only screen and (max-width: 800px) and (min-width: 768px) {
-  /* line 211, ../scss/_settings.scss */
+  /* line 216, ../scss/_settings.scss */
   .line {
     display: none !important;
   }
 
-  /* line 215, ../scss/_settings.scss */
+  /* line 220, ../scss/_settings.scss */
   .large-5.columns.path-text {
     width: 70%;
     right: 0;
     margin-left: 15px;
   }
 
-  /* line 221, ../scss/_settings.scss */
+  /* line 226, ../scss/_settings.scss */
   .path-item .large-7 {
     width: 25%;
   }
 
-  /* line 225, ../scss/_settings.scss */
+  /* line 230, ../scss/_settings.scss */
   .push-5 {
     left: 0;
     float: right;
   }
 
-  /* line 230, ../scss/_settings.scss */
+  /* line 235, ../scss/_settings.scss */
   .circle-right {
     float: left;
     right: 0px !important;
   }
 
-  /* line 235, ../scss/_settings.scss */
+  /* line 240, ../scss/_settings.scss */
   .circle-left {
     left: 0px !important;
   }
@@ -200,12 +205,12 @@ h2 {
  mobile timeline styles
 ------------------------------------*/
 @media only screen and (max-width: 767px) {
-  /* line 243, ../scss/_settings.scss */
+  /* line 248, ../scss/_settings.scss */
   .path-container {
     text-align: center;
   }
 
-  /* line 246, ../scss/_settings.scss */
+  /* line 251, ../scss/_settings.scss */
   .path-container .circle {
     top: 0;
     right: 0;
@@ -217,7 +222,7 @@ h2 {
     margin-right: auto;
   }
 }
-/* line 266, ../scss/_settings.scss */
+/* line 271, ../scss/_settings.scss */
 .fancy.button {
   background-color: #fff;
   *zoom: 1;
@@ -234,7 +239,7 @@ h2 {
   letter-spacing: 0.08em;
 }
 
-/* line 281, ../scss/_settings.scss */
+/* line 286, ../scss/_settings.scss */
 .fancy.button:hover {
   color: #3498db;
   background-color: #fff;
@@ -251,7 +256,7 @@ h2 {
   box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
 }
 
-/* line 296, ../scss/_settings.scss */
+/* line 301, ../scss/_settings.scss */
 .fancy.button:active {
   -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
@@ -259,20 +264,20 @@ h2 {
 }
 
 /* Styles for signup panels */
-/* line 306, ../scss/_settings.scss */
+/* line 311, ../scss/_settings.scss */
 .auth-plain {
   padding-right: 0px;
   padding-left: 0px;
   padding-top: 0px;
 }
 
-/* line 312, ../scss/_settings.scss */
+/* line 317, ../scss/_settings.scss */
 .left-solid {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 317, ../scss/_settings.scss */
+/* line 322, ../scss/_settings.scss */
 .signup-panel {
   border-radius: 5px;
   padding: 15px;
@@ -281,43 +286,43 @@ h2 {
   background: #fff;
 }
 
-/* line 325, ../scss/_settings.scss */
+/* line 330, ../scss/_settings.scss */
 .signup-panel a {
   color: #fff;
 }
 
-/* line 329, ../scss/_settings.scss */
+/* line 334, ../scss/_settings.scss */
 .signup-panel i {
   font-size: 30px;
   line-height: 50px;
   color: #999;
 }
 
-/* line 334, ../scss/_settings.scss */
+/* line 339, ../scss/_settings.scss */
 .signup-panel form input, .signup-panel form span {
   height: 50px;
 }
 
-/* line 337, ../scss/_settings.scss */
+/* line 342, ../scss/_settings.scss */
 .signup-panel .welcome {
   font-size: 26px;
   text-align: center;
   margin-left: 0;
 }
 
-/* line 342, ../scss/_settings.scss */
+/* line 347, ../scss/_settings.scss */
 .signup-panel p {
   font-size: 13px;
   font-weight: 200;
   text-align: center;
 }
 
-/* line 347, ../scss/_settings.scss */
+/* line 352, ../scss/_settings.scss */
 .signup-panel .button {
   margin-left: 45%;
 }
 
-/* line 351, ../scss/_settings.scss */
+/* line 356, ../scss/_settings.scss */
 .newusers {
   background: #fff;
 }
