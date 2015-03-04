@@ -86,6 +86,11 @@ h2{
   height: 40px;
 }
 
+//Index
+.greeting{
+  margin: 0 75px 0 75px;
+}
+
 .quote {
   background: #F2F2F2;
   padding: 15px 20px 5px 15px;
@@ -290,6 +295,58 @@ h2{
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
 }              
 
+
+//RSVP
+
+/* Styles for signup panels */
+.auth-plain {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.left-solid {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.signup-panel {
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #fff;
+}
+
+.signup-panel a{
+  color: #fff;
+}
+
+.signup-panel i {
+  font-size: 30px;
+  line-height: 50px;
+  color: #999;
+}
+.signup-panel form input, .signup-panel form span {
+  height: 50px;
+}
+.signup-panel .welcome {
+  font-size: 26px;
+  text-align: center;
+  margin-left: 0;
+}
+.signup-panel p {
+  font-size: 13px;
+  font-weight: 200;
+  text-align: center;
+}
+.signup-panel .button {
+  margin-left: 45%;
+}
+
+.newusers {
+  background: #fff;
+}              
 
 //END David's stuff
 
