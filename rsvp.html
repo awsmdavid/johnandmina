@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>John ♥ Mina</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" href="stylesheets/foundation-icons/foundation-icons.css" />  
     <link href='http://fonts.googleapis.com/css?family=Comfortaa:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
@@ -123,17 +124,21 @@
               <div class="large-12 columns auth-plain">
                 <div class="signup-panel left-solid">
                   <p class="welcome">Please enter the password</p>
+                  
                   <form>
                     <div class="row collapse">
                       <div class="small-2  columns">
                         <span class="prefix"><i class="fi-lock"></i></span>
                       </div>
-                      <div class="small-10  columns">
-                        <input type="text" placeholder="password">
+                      <div class="content-password small-10  columns">
+                        <input id="password" class="input password" placeholder="Password" name="password" type="text" autocomplete="off"/>
+                        <!-- adding hidden input used to fix quirk that breaks automatically submitting with GET on enter for only one input field-->
+                        <input style="display: none;"/>
                       </div>
                     </div>
                   </form>
-                  <a href="#" class="button ">Go!</a>
+                  <a id="submit-password-button" class="submit" name="submit" onclick="login()"; class="button ">Submit </a>
+
                 </div>
               </div>
              </div>   

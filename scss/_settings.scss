@@ -82,6 +82,10 @@ h2{
   text-align: center;
 }
 
+// .title-area{
+//   padding-left: 50px;
+// }
+
 #title-banner{
   height: 40px;
 }
@@ -149,6 +153,28 @@ h2{
   }
 }
 
+
+// .nav-bar{
+//   opacity:.4;
+// }
+
+//home
+.grey-bg{
+  background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
+  padding: 30px 0;
+}
+
+.blue-bg{
+  background: url(http://portfoliolab.co.uk/wedding/img/home/bg-rpt-blue.jpg) fixed;
+  padding: 30px 0;
+}
+
+.light-blue-bg{
+  background: url(/assets/light-blue-bg.png) fixed;
+  padding: 30px 0;
+}
+
+
 //PHOTOS
 .gallery img:hover{
   opacity:0.5;
@@ -211,6 +237,12 @@ h2{
   left: 50%;
   z-index: 0;
   height: 1164px;
+}
+
+//wedding
+.party:hover{
+  opacity:.8;
+  cursor: pointer;
 }
 
 /*------------------------------------
@@ -361,9 +393,18 @@ margin-bottom: 0px;
   margin-left: 45%;
 }
 
-.newusers {
-  background: #fff;
-}              
+.submit{
+  color: #fff !important;
+  display: inline-block;
+  padding: 7px 12px;
+  background: #333;
+  text-transform: uppercase;
+  border-radius: 2px;
+  line-height: 42px;
+  letter-spacing: 1px;
+  font: 500 18px 'Open Sans', sans-serif;
+}
+
 
 //END David's stuff
 
@@ -1729,7 +1770,7 @@ $topbar-link-font-size: rem-calc(20);
 $topbar-link-hover-lightness: -10%; // Darken by 10%
 $topbar-link-bg: $topbar-bg;
 $topbar-link-bg-hover: $sky-blue;
-$topbar-link-bg-color-hover: $charcoal;
+$topbar-link-bg-color-hover: $sky-blue;
 $topbar-link-bg-active: $primary-color;
 $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 $topbar-link-font-family: $body-font-family;
@@ -1743,9 +1784,9 @@ $topbar-button-top: 7px;
 
 // Style the top bar dropdown elements
 $topbar-dropdown-bg: $topbar-bg-color;
-$topbar-dropdown-link-color: $dark-blue;
+$topbar-dropdown-link-color: $sky-blue;
 $topbar-dropdown-link-color-hover: $topbar-link-color-hover;
-$topbar-dropdown-link-bg: $oil;
+$topbar-dropdown-link-bg: $sky-blue;
 $topbar-dropdown-link-bg-hover: $oil;
 $topbar-dropdown-link-weight: $font-weight-normal;
 $topbar-dropdown-toggle-size: 5px;
@@ -1764,8 +1805,8 @@ $topbar-menu-link-font-size: rem-calc(13);
 $topbar-menu-link-weight: $font-weight-bold;
 $topbar-menu-link-color: $sky-blue;
 $topbar-menu-icon-color: $sky-blue;
-$topbar-menu-link-color-toggled: $dark-blue;
-$topbar-menu-icon-color-toggled: $dark-blue;
+$topbar-menu-link-color-toggled: $sky-blue;
+$topbar-menu-icon-color-toggled: $sky-blue;
 $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon
 
 // Transitions and breakpoint styles
