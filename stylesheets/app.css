@@ -5,44 +5,57 @@ h2 {
   color: #333;
 }
 
-/* line 81, ../scss/_settings.scss */
+/* line 82, ../scss/_settings.scss */
 .centered-text {
   text-align: center;
 }
 
-/* line 89, ../scss/_settings.scss */
+/* line 86, ../scss/_settings.scss */
+.selected-nav {
+  color: #99CCFF;
+  border-bottom: solid 2px #99CCFF;
+  display: inline;
+  padding-bottom: 3px;
+}
+
+/* line 93, ../scss/_settings.scss */
+h1 {
+  margin-bottom: 0px;
+}
+
+/* line 97, ../scss/_settings.scss */
 #title-banner {
   height: 40px;
 }
 
-/* line 94, ../scss/_settings.scss */
+/* line 102, ../scss/_settings.scss */
 .greeting {
   margin: 0 25px 0 25px;
 }
 
-/* line 98, ../scss/_settings.scss */
+/* line 106, ../scss/_settings.scss */
 .greeting-message {
   padding: 0 20px 0 20px;
 }
 
-/* line 102, ../scss/_settings.scss */
+/* line 110, ../scss/_settings.scss */
 #countdown {
   font-size: 22px;
 }
 
-/* line 106, ../scss/_settings.scss */
+/* line 114, ../scss/_settings.scss */
 #countdowndays {
   color: #3399FF;
 }
 
-/* line 111, ../scss/_settings.scss */
+/* line 119, ../scss/_settings.scss */
 .quote {
   background: #F2F2F2;
   padding: 15px 20px 5px 15px;
   border-radius: 5px;
   margin-bottom: 30px;
 }
-/* line 116, ../scss/_settings.scss */
+/* line 124, ../scss/_settings.scss */
 .quote:after {
   content: '';
   width: 0px;
@@ -55,12 +68,12 @@ h2 {
   left: 20px;
 }
 
-/* line 129, ../scss/_settings.scss */
+/* line 137, ../scss/_settings.scss */
 .johnandmina {
   margin-left: 25px;
   margin-bottom: 80px;
 }
-/* line 132, ../scss/_settings.scss */
+/* line 140, ../scss/_settings.scss */
 .johnandmina .photo {
   background-color: #ccc;
   border-radius: 100px;
@@ -69,43 +82,55 @@ h2 {
   float: left;
   margin-right: 10px;
 }
-/* line 140, ../scss/_settings.scss */
+/* line 148, ../scss/_settings.scss */
 .johnandmina p {
   position: relative;
   top: 5px;
   text-transform: uppercase;
 }
-/* line 144, ../scss/_settings.scss */
+/* line 152, ../scss/_settings.scss */
 .johnandmina p:nth-child(2) {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 0;
 }
-/* line 149, ../scss/_settings.scss */
+/* line 157, ../scss/_settings.scss */
 .johnandmina p:nth-child(3) {
   font-size: 14px;
   color: #777;
 }
 
-/* line 162, ../scss/_settings.scss */
+/* line 170, ../scss/_settings.scss */
+#heart-divider {
+  background: url(/assets/heartdiv.png) no-repeat scroll center bottom transparent;
+  font-family: 'Great Vibes', cursive;
+  font-size: 64px;
+  text-align: center;
+  width: 399px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 181, ../scss/_settings.scss */
 .grey-bg {
   background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
   padding: 30px 0;
 }
 
-/* line 167, ../scss/_settings.scss */
-.blue-bg {
+/* line 186, ../scss/_settings.scss */
+.light-blue-bg {
   background: url(http://portfoliolab.co.uk/wedding/img/home/bg-rpt-blue.jpg) fixed;
-  padding: 30px 0;
+  padding: 15px 0;
 }
 
-/* line 172, ../scss/_settings.scss */
-.light-blue-bg {
+/* line 191, ../scss/_settings.scss */
+.blue-bg {
   background: url(/assets/light-blue-bg.png) fixed;
   padding: 30px 0;
 }
 
-/* line 179, ../scss/_settings.scss */
+/* line 198, ../scss/_settings.scss */
 .gallery img:hover {
   opacity: 0.5;
   -webkit-transition: 0.3s ease;
@@ -115,44 +140,44 @@ h2 {
   transition: 0.3s ease;
 }
 
-/* line 188, ../scss/_settings.scss */
+/* line 207, ../scss/_settings.scss */
 .gallery li {
   height: 140px;
   overflow: hidden;
 }
 
-/* line 194, ../scss/_settings.scss */
+/* line 213, ../scss/_settings.scss */
 .path-container {
   margin-top: 50px;
   margin-bottom: 70px;
 }
 
-/* line 198, ../scss/_settings.scss */
+/* line 217, ../scss/_settings.scss */
 .path-container .path-item h1 {
   text-align: center;
   margin-bottom: 70px;
 }
 
-/* line 202, ../scss/_settings.scss */
+/* line 221, ../scss/_settings.scss */
 .path-container .path-item h3 {
   margin-bottom: 10px;
   line-height: 1.15;
 }
 
-/* line 206, ../scss/_settings.scss */
+/* line 225, ../scss/_settings.scss */
 .path-container .path-item p {
   font-size: 1rem;
   line-height: 1.7;
   margin-bottom: 25px;
 }
 
-/* line 211, ../scss/_settings.scss */
+/* line 230, ../scss/_settings.scss */
 .path-container .path-item a {
   font-weight: bold;
   font-size: 0.875rem;
 }
 
-/* line 215, ../scss/_settings.scss */
+/* line 234, ../scss/_settings.scss */
 .path-container .path-item .circle {
   background-color: #ccc;
   background-size: 156px 156px;
@@ -164,17 +189,17 @@ h2 {
   z-index: 2;
 }
 
-/* line 225, ../scss/_settings.scss */
+/* line 244, ../scss/_settings.scss */
 .path-container .path-item .circle.circle-left {
   left: -7px;
 }
 
-/* line 228, ../scss/_settings.scss */
+/* line 247, ../scss/_settings.scss */
 .path-container .path-item .circle.circle-right {
   right: -10px;
 }
 
-/* line 231, ../scss/_settings.scss */
+/* line 250, ../scss/_settings.scss */
 .path-container .line {
   background: #ddd;
   width: 2px;
@@ -186,7 +211,7 @@ h2 {
   height: 1164px;
 }
 
-/* line 243, ../scss/_settings.scss */
+/* line 262, ../scss/_settings.scss */
 .party:hover {
   opacity: .8;
   cursor: pointer;
@@ -196,36 +221,36 @@ h2 {
  medium timeline styles
 ------------------------------------*/
 @media only screen and (max-width: 800px) and (min-width: 768px) {
-  /* line 252, ../scss/_settings.scss */
+  /* line 271, ../scss/_settings.scss */
   .line {
     display: none !important;
   }
 
-  /* line 256, ../scss/_settings.scss */
+  /* line 275, ../scss/_settings.scss */
   .large-5.columns.path-text {
     width: 70%;
     right: 0;
     margin-left: 15px;
   }
 
-  /* line 262, ../scss/_settings.scss */
+  /* line 281, ../scss/_settings.scss */
   .path-item .large-7 {
     width: 25%;
   }
 
-  /* line 266, ../scss/_settings.scss */
+  /* line 285, ../scss/_settings.scss */
   .push-5 {
     left: 0;
     float: right;
   }
 
-  /* line 271, ../scss/_settings.scss */
+  /* line 290, ../scss/_settings.scss */
   .circle-right {
     float: left;
     right: 0px !important;
   }
 
-  /* line 276, ../scss/_settings.scss */
+  /* line 295, ../scss/_settings.scss */
   .circle-left {
     left: 0px !important;
   }
@@ -234,12 +259,12 @@ h2 {
  mobile timeline styles
 ------------------------------------*/
 @media only screen and (max-width: 767px) {
-  /* line 284, ../scss/_settings.scss */
+  /* line 303, ../scss/_settings.scss */
   .path-container {
     text-align: center;
   }
 
-  /* line 287, ../scss/_settings.scss */
+  /* line 306, ../scss/_settings.scss */
   .path-container .circle {
     top: 0;
     right: 0;
@@ -251,7 +276,7 @@ h2 {
     margin-right: auto;
   }
 }
-/* line 311, ../scss/_settings.scss */
+/* line 330, ../scss/_settings.scss */
 .fancy.button {
   background-color: #fff;
   *zoom: 1;
@@ -268,7 +293,7 @@ h2 {
   letter-spacing: 0.08em;
 }
 
-/* line 326, ../scss/_settings.scss */
+/* line 345, ../scss/_settings.scss */
 .fancy.button:hover {
   color: #3498db;
   background-color: #fff;
@@ -285,7 +310,7 @@ h2 {
   box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
 }
 
-/* line 341, ../scss/_settings.scss */
+/* line 360, ../scss/_settings.scss */
 .fancy.button:active {
   -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
@@ -293,20 +318,20 @@ h2 {
 }
 
 /* Styles for signup panels */
-/* line 351, ../scss/_settings.scss */
+/* line 370, ../scss/_settings.scss */
 .auth-plain {
   padding-right: 0px;
   padding-left: 0px;
   padding-top: 0px;
 }
 
-/* line 357, ../scss/_settings.scss */
+/* line 376, ../scss/_settings.scss */
 .left-solid {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 362, ../scss/_settings.scss */
+/* line 381, ../scss/_settings.scss */
 .signup-panel {
   border-radius: 5px;
   padding: 15px;
@@ -315,43 +340,43 @@ h2 {
   background: #fff;
 }
 
-/* line 370, ../scss/_settings.scss */
+/* line 389, ../scss/_settings.scss */
 .signup-panel a {
   color: #fff;
 }
 
-/* line 374, ../scss/_settings.scss */
+/* line 393, ../scss/_settings.scss */
 .signup-panel i {
   font-size: 30px;
   line-height: 50px;
   color: #999;
 }
 
-/* line 379, ../scss/_settings.scss */
+/* line 398, ../scss/_settings.scss */
 .signup-panel form input, .signup-panel form span {
   height: 50px;
 }
 
-/* line 382, ../scss/_settings.scss */
+/* line 401, ../scss/_settings.scss */
 .signup-panel .welcome {
   font-size: 26px;
   text-align: center;
   margin-left: 0;
 }
 
-/* line 387, ../scss/_settings.scss */
+/* line 406, ../scss/_settings.scss */
 .signup-panel p {
   font-size: 13px;
   font-weight: 200;
   text-align: center;
 }
 
-/* line 392, ../scss/_settings.scss */
+/* line 411, ../scss/_settings.scss */
 .signup-panel .button {
   margin-left: 45%;
 }
 
-/* line 396, ../scss/_settings.scss */
+/* line 415, ../scss/_settings.scss */
 .submit {
   color: #fff !important;
   display: inline-block;
@@ -454,7 +479,7 @@ body {
   color: #002966;
   padding: 0;
   margin: 0;
-  font-family: "Rokkitt", serif;
+  font-family: "Nixie One", cursive;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -2067,7 +2092,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Rokkitt", serif;
+  font-family: "Nixie One", cursive;
   font-size: 1rem;
 }
 /* line 143, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
@@ -2774,7 +2799,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Rokkitt", serif;
+  font-family: "Nixie One", cursive;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -4625,7 +4650,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Rokkitt", serif;
+  font-family: "Nixie One", cursive;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -5318,7 +5343,7 @@ kbd {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Rokkitt", serif;
+  font-family: "Nixie One", cursive;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5889,7 +5914,7 @@ ul.pagination li {
   color: #EEEEEE;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Rokkitt", serif;
+  font-family: "Nixie One", cursive;
 }
 /* line 143, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -5899,7 +5924,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Rokkitt", serif;
+  font-family: "Nixie One", cursive;
 }
 /* line 144, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -6255,7 +6280,7 @@ ul.pagination li {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Rokkitt", serif;
+  font-family: "Nixie One", cursive;
 }
 /* line 70, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -6279,7 +6304,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child:not(.button) {
   color: #94dbff;
   font-weight: normal;
-  font-family: "Rokkitt", serif;
+  font-family: "Nixie One", cursive;
 }
 /* line 93, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -6465,7 +6490,7 @@ ul.pagination li {
   float: left;
   margin-left: 1rem;
   margin-bottom: 0;
-  font-family: "Rokkitt", serif;
+  font-family: "Nixie One", cursive;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -6743,7 +6768,7 @@ table tr td {
   background-color: #EFEFEF;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "Rokkitt", serif;
+  font-family: "Nixie One", cursive;
   font-size: 1rem;
 }
 /* line 48, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -7185,14 +7210,14 @@ meta.foundation-mq-topbar {
   color: #002966;
   padding: 12px 0 12px 0;
   padding-left: 0.9375rem;
-  font-family: "Rokkitt", serif;
-  font-size: 1.25rem;
+  font-family: "Nixie One", cursive;
+  font-size: 0.9375rem;
   font-weight: normal;
   text-transform: none;
 }
 /* line 329, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
-  font-size: 1.25rem;
+  font-size: 0.9375rem;
   padding-right: 0.9375rem;
   padding-left: 0.9375rem;
   background-color: #66CCFF;
@@ -7265,7 +7290,7 @@ meta.foundation-mq-topbar {
 }
 /* line 341, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button {
-  font-size: 1.25rem;
+  font-size: 0.9375rem;
   padding-right: 0.9375rem;
   padding-left: 0.9375rem;
   background-color: #66CCFF;
@@ -7339,8 +7364,8 @@ meta.foundation-mq-topbar {
 /* line 354, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
   background-color: #99CCFF;
-  background: #99CCFF;
-  color: #FFFFFF;
+  background: #FFFFFF;
+  color: #99CCFF;
 }
 /* line 363, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
@@ -7535,8 +7560,8 @@ meta.foundation-mq-topbar {
   /* line 507, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
     background-color: #99CCFF;
-    background: #99CCFF;
-    color: #FFFFFF;
+    background: #FFFFFF;
+    color: #99CCFF;
   }
   /* line 516, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
@@ -7547,7 +7572,7 @@ meta.foundation-mq-topbar {
   /* line 520, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #99CCFF;
-    background: #99CCFF;
+    background: #FFFFFF;
   }
   /* line 529, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -7641,7 +7666,7 @@ meta.foundation-mq-topbar {
   }
   /* line 606, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-    color: #FFFFFF;
+    color: #99CCFF;
     background-color: #99CCFF;
     background: #333333;
   }
@@ -7692,8 +7717,8 @@ meta.foundation-mq-topbar {
   /* line 668, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
     background-color: #99CCFF;
-    background: #99CCFF;
-    color: #FFFFFF;
+    background: #FFFFFF;
+    color: #99CCFF;
   }
   /* line 677, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
@@ -8017,7 +8042,7 @@ p aside {
 /* Default header styles */
 /* line 252, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Rokkitt", serif;
+  font-family: "Nixie One", cursive;
   font-weight: normal;
   font-style: normal;
   color: #002966;
