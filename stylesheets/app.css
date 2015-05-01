@@ -5,12 +5,17 @@ h2 {
   color: #333;
 }
 
-/* line 82, ../scss/_settings.scss */
+/* line 77, ../scss/_settings.scss */
+.feat-pic {
+  width: 100%;
+}
+
+/* line 86, ../scss/_settings.scss */
 .centered-text {
   text-align: center;
 }
 
-/* line 86, ../scss/_settings.scss */
+/* line 90, ../scss/_settings.scss */
 .selected-nav {
   color: #99CCFF;
   border-bottom: solid 2px #99CCFF;
@@ -18,44 +23,44 @@ h2 {
   padding-bottom: 3px;
 }
 
-/* line 93, ../scss/_settings.scss */
+/* line 97, ../scss/_settings.scss */
 h1 {
   margin-bottom: 0px;
 }
 
-/* line 97, ../scss/_settings.scss */
+/* line 101, ../scss/_settings.scss */
 #title-banner {
   height: 40px;
 }
 
-/* line 102, ../scss/_settings.scss */
+/* line 106, ../scss/_settings.scss */
 .greeting {
   margin: 0 25px 0 25px;
 }
 
-/* line 106, ../scss/_settings.scss */
+/* line 110, ../scss/_settings.scss */
 .greeting-message {
   padding: 0 20px 0 20px;
 }
 
-/* line 110, ../scss/_settings.scss */
+/* line 114, ../scss/_settings.scss */
 #countdown {
   font-size: 22px;
 }
 
-/* line 114, ../scss/_settings.scss */
+/* line 118, ../scss/_settings.scss */
 #countdowndays {
   color: #3399FF;
 }
 
-/* line 119, ../scss/_settings.scss */
+/* line 123, ../scss/_settings.scss */
 .quote {
   background: #F2F2F2;
   padding: 15px 20px 5px 15px;
   border-radius: 5px;
   margin-bottom: 30px;
 }
-/* line 124, ../scss/_settings.scss */
+/* line 128, ../scss/_settings.scss */
 .quote:after {
   content: '';
   width: 0px;
@@ -68,12 +73,12 @@ h1 {
   left: 20px;
 }
 
-/* line 137, ../scss/_settings.scss */
+/* line 141, ../scss/_settings.scss */
 .johnandmina {
   margin-left: 25px;
   margin-bottom: 80px;
 }
-/* line 140, ../scss/_settings.scss */
+/* line 144, ../scss/_settings.scss */
 .johnandmina .photo {
   background-color: #ccc;
   border-radius: 100px;
@@ -82,25 +87,25 @@ h1 {
   float: left;
   margin-right: 10px;
 }
-/* line 148, ../scss/_settings.scss */
+/* line 152, ../scss/_settings.scss */
 .johnandmina p {
   position: relative;
   top: 5px;
   text-transform: uppercase;
 }
-/* line 152, ../scss/_settings.scss */
+/* line 156, ../scss/_settings.scss */
 .johnandmina p:nth-child(2) {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 0;
 }
-/* line 157, ../scss/_settings.scss */
+/* line 161, ../scss/_settings.scss */
 .johnandmina p:nth-child(3) {
   font-size: 14px;
   color: #777;
 }
 
-/* line 170, ../scss/_settings.scss */
+/* line 174, ../scss/_settings.scss */
 #heart-divider {
   background: url(/assets/heartdiv.png) no-repeat scroll center bottom transparent;
   font-family: 'Great Vibes', cursive;
@@ -112,25 +117,25 @@ h1 {
   margin-right: auto;
 }
 
-/* line 181, ../scss/_settings.scss */
+/* line 185, ../scss/_settings.scss */
 .grey-bg {
   background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
   padding: 30px 0;
 }
 
-/* line 186, ../scss/_settings.scss */
+/* line 190, ../scss/_settings.scss */
 .light-blue-bg {
   background: url(http://portfoliolab.co.uk/wedding/img/home/bg-rpt-blue.jpg) fixed;
   padding: 15px 0;
 }
 
-/* line 191, ../scss/_settings.scss */
+/* line 195, ../scss/_settings.scss */
 .blue-bg {
   background: url(/assets/light-blue-bg.png) fixed;
   padding: 30px 0;
 }
 
-/* line 198, ../scss/_settings.scss */
+/* line 202, ../scss/_settings.scss */
 .gallery img:hover {
   opacity: 0.5;
   -webkit-transition: 0.3s ease;
@@ -140,44 +145,44 @@ h1 {
   transition: 0.3s ease;
 }
 
-/* line 207, ../scss/_settings.scss */
+/* line 211, ../scss/_settings.scss */
 .gallery li {
   height: 140px;
   overflow: hidden;
 }
 
-/* line 213, ../scss/_settings.scss */
+/* line 217, ../scss/_settings.scss */
 .path-container {
   margin-top: 50px;
   margin-bottom: 70px;
 }
 
-/* line 217, ../scss/_settings.scss */
+/* line 221, ../scss/_settings.scss */
 .path-container .path-item h1 {
   text-align: center;
   margin-bottom: 70px;
 }
 
-/* line 221, ../scss/_settings.scss */
+/* line 225, ../scss/_settings.scss */
 .path-container .path-item h3 {
   margin-bottom: 10px;
   line-height: 1.15;
 }
 
-/* line 225, ../scss/_settings.scss */
+/* line 229, ../scss/_settings.scss */
 .path-container .path-item p {
   font-size: 1rem;
   line-height: 1.7;
   margin-bottom: 25px;
 }
 
-/* line 230, ../scss/_settings.scss */
+/* line 234, ../scss/_settings.scss */
 .path-container .path-item a {
   font-weight: bold;
   font-size: 0.875rem;
 }
 
-/* line 234, ../scss/_settings.scss */
+/* line 238, ../scss/_settings.scss */
 .path-container .path-item .circle {
   background-color: #ccc;
   background-size: 156px 156px;
@@ -189,17 +194,17 @@ h1 {
   z-index: 2;
 }
 
-/* line 244, ../scss/_settings.scss */
+/* line 248, ../scss/_settings.scss */
 .path-container .path-item .circle.circle-left {
   left: -7px;
 }
 
-/* line 247, ../scss/_settings.scss */
+/* line 251, ../scss/_settings.scss */
 .path-container .path-item .circle.circle-right {
   right: -10px;
 }
 
-/* line 250, ../scss/_settings.scss */
+/* line 254, ../scss/_settings.scss */
 .path-container .line {
   background: #ddd;
   width: 2px;
@@ -211,7 +216,7 @@ h1 {
   height: 1164px;
 }
 
-/* line 262, ../scss/_settings.scss */
+/* line 266, ../scss/_settings.scss */
 .party:hover {
   opacity: .8;
   cursor: pointer;
@@ -221,36 +226,36 @@ h1 {
  medium timeline styles
 ------------------------------------*/
 @media only screen and (max-width: 800px) and (min-width: 768px) {
-  /* line 271, ../scss/_settings.scss */
+  /* line 275, ../scss/_settings.scss */
   .line {
     display: none !important;
   }
 
-  /* line 275, ../scss/_settings.scss */
+  /* line 279, ../scss/_settings.scss */
   .large-5.columns.path-text {
     width: 70%;
     right: 0;
     margin-left: 15px;
   }
 
-  /* line 281, ../scss/_settings.scss */
+  /* line 285, ../scss/_settings.scss */
   .path-item .large-7 {
     width: 25%;
   }
 
-  /* line 285, ../scss/_settings.scss */
+  /* line 289, ../scss/_settings.scss */
   .push-5 {
     left: 0;
     float: right;
   }
 
-  /* line 290, ../scss/_settings.scss */
+  /* line 294, ../scss/_settings.scss */
   .circle-right {
     float: left;
     right: 0px !important;
   }
 
-  /* line 295, ../scss/_settings.scss */
+  /* line 299, ../scss/_settings.scss */
   .circle-left {
     left: 0px !important;
   }
@@ -259,12 +264,12 @@ h1 {
  mobile timeline styles
 ------------------------------------*/
 @media only screen and (max-width: 767px) {
-  /* line 303, ../scss/_settings.scss */
+  /* line 307, ../scss/_settings.scss */
   .path-container {
     text-align: center;
   }
 
-  /* line 306, ../scss/_settings.scss */
+  /* line 310, ../scss/_settings.scss */
   .path-container .circle {
     top: 0;
     right: 0;
@@ -276,12 +281,12 @@ h1 {
     margin-right: auto;
   }
 }
-/* line 327, ../scss/_settings.scss */
+/* line 331, ../scss/_settings.scss */
 .bm-info, .gm-info {
   display: none;
 }
 
-/* line 333, ../scss/_settings.scss */
+/* line 337, ../scss/_settings.scss */
 .fancy.button {
   background-color: #fff;
   *zoom: 1;
@@ -298,7 +303,7 @@ h1 {
   letter-spacing: 0.08em;
 }
 
-/* line 348, ../scss/_settings.scss */
+/* line 352, ../scss/_settings.scss */
 .fancy.button:hover {
   color: #3498db;
   background-color: #fff;
@@ -315,7 +320,7 @@ h1 {
   box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
 }
 
-/* line 363, ../scss/_settings.scss */
+/* line 367, ../scss/_settings.scss */
 .fancy.button:active {
   -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
@@ -323,20 +328,20 @@ h1 {
 }
 
 /* Styles for signup panels */
-/* line 373, ../scss/_settings.scss */
+/* line 377, ../scss/_settings.scss */
 .auth-plain {
   padding-right: 0px;
   padding-left: 0px;
   padding-top: 0px;
 }
 
-/* line 379, ../scss/_settings.scss */
+/* line 383, ../scss/_settings.scss */
 .left-solid {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 384, ../scss/_settings.scss */
+/* line 388, ../scss/_settings.scss */
 .signup-panel {
   border-radius: 5px;
   padding: 15px;
@@ -345,43 +350,43 @@ h1 {
   background: #fff;
 }
 
-/* line 392, ../scss/_settings.scss */
+/* line 396, ../scss/_settings.scss */
 .signup-panel a {
   color: #fff;
 }
 
-/* line 396, ../scss/_settings.scss */
+/* line 400, ../scss/_settings.scss */
 .signup-panel i {
   font-size: 30px;
   line-height: 50px;
   color: #999;
 }
 
-/* line 401, ../scss/_settings.scss */
+/* line 405, ../scss/_settings.scss */
 .signup-panel form input, .signup-panel form span {
   height: 50px;
 }
 
-/* line 404, ../scss/_settings.scss */
+/* line 408, ../scss/_settings.scss */
 .signup-panel .welcome {
   font-size: 26px;
   text-align: center;
   margin-left: 0;
 }
 
-/* line 409, ../scss/_settings.scss */
+/* line 413, ../scss/_settings.scss */
 .signup-panel p {
   font-size: 13px;
   font-weight: 200;
   text-align: center;
 }
 
-/* line 414, ../scss/_settings.scss */
+/* line 418, ../scss/_settings.scss */
 .signup-panel .button {
   margin-left: 45%;
 }
 
-/* line 418, ../scss/_settings.scss */
+/* line 422, ../scss/_settings.scss */
 .submit {
   color: #fff !important;
   display: inline-block;
