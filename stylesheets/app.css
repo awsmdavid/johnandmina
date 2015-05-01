@@ -276,7 +276,12 @@ h1 {
     margin-right: auto;
   }
 }
-/* line 330, ../scss/_settings.scss */
+/* line 327, ../scss/_settings.scss */
+.bm-info, .gm-info {
+  display: none;
+}
+
+/* line 333, ../scss/_settings.scss */
 .fancy.button {
   background-color: #fff;
   *zoom: 1;
@@ -293,7 +298,7 @@ h1 {
   letter-spacing: 0.08em;
 }
 
-/* line 345, ../scss/_settings.scss */
+/* line 348, ../scss/_settings.scss */
 .fancy.button:hover {
   color: #3498db;
   background-color: #fff;
@@ -310,7 +315,7 @@ h1 {
   box-shadow: 0px 0px 6px rgba(52, 73, 94, 0.1);
 }
 
-/* line 360, ../scss/_settings.scss */
+/* line 363, ../scss/_settings.scss */
 .fancy.button:active {
   -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
@@ -318,20 +323,20 @@ h1 {
 }
 
 /* Styles for signup panels */
-/* line 370, ../scss/_settings.scss */
+/* line 373, ../scss/_settings.scss */
 .auth-plain {
   padding-right: 0px;
   padding-left: 0px;
   padding-top: 0px;
 }
 
-/* line 376, ../scss/_settings.scss */
+/* line 379, ../scss/_settings.scss */
 .left-solid {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 381, ../scss/_settings.scss */
+/* line 384, ../scss/_settings.scss */
 .signup-panel {
   border-radius: 5px;
   padding: 15px;
@@ -340,43 +345,43 @@ h1 {
   background: #fff;
 }
 
-/* line 389, ../scss/_settings.scss */
+/* line 392, ../scss/_settings.scss */
 .signup-panel a {
   color: #fff;
 }
 
-/* line 393, ../scss/_settings.scss */
+/* line 396, ../scss/_settings.scss */
 .signup-panel i {
   font-size: 30px;
   line-height: 50px;
   color: #999;
 }
 
-/* line 398, ../scss/_settings.scss */
+/* line 401, ../scss/_settings.scss */
 .signup-panel form input, .signup-panel form span {
   height: 50px;
 }
 
-/* line 401, ../scss/_settings.scss */
+/* line 404, ../scss/_settings.scss */
 .signup-panel .welcome {
   font-size: 26px;
   text-align: center;
   margin-left: 0;
 }
 
-/* line 406, ../scss/_settings.scss */
+/* line 409, ../scss/_settings.scss */
 .signup-panel p {
   font-size: 13px;
   font-weight: 200;
   text-align: center;
 }
 
-/* line 411, ../scss/_settings.scss */
+/* line 414, ../scss/_settings.scss */
 .signup-panel .button {
   margin-left: 45%;
 }
 
-/* line 415, ../scss/_settings.scss */
+/* line 418, ../scss/_settings.scss */
 .submit {
   color: #fff !important;
   display: inline-block;
@@ -386,7 +391,6 @@ h1 {
   border-radius: 2px;
   line-height: 42px;
   letter-spacing: 1px;
-  font: 500 18px 'Open Sans', sans-serif;
 }
 
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */

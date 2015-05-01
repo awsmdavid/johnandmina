@@ -3,6 +3,41 @@
 $(document).foundation();
 $(document).ready(function(){
 
+    $('.bm-panel').click(function() {
+        if ($('#bm-container').children(':visible').length === 0){
+            $('#'+this.id+'-info').toggle( "fast", function() {
+            });
+            // alert('yo');
+        }
+        else if($('#'+this.id+'-info').css("display") == "block"){
+            $('#'+this.id+'-info').toggle( "fast", function() {
+            });
+        }
+        else{
+            $('.bm-info').hide();
+            $('#'+this.id+'-info').css("display", "block");
+        }
+
+    });
+
+    $('.gm-panel').click(function() {
+        if ($('#gm-container').children(':visible').length === 0){
+            $('#'+this.id+'-info').toggle( "fast", function() {
+            });
+            // alert('yo');
+        }
+        else if($('#'+this.id+'-info').css("display") == "block"){
+            $('#'+this.id+'-info').toggle( "fast", function() {
+            });
+        }
+        else{
+            $('.gm-info').hide();
+            $('#'+this.id+'-info').css("display", "block");
+        }
+
+    });
+
+
 var end = new Date('08/29/2015 10:1 AM');
 
 var _second = 1000;
@@ -18,7 +53,7 @@ function showRemaining() {
     if (days === 0) {
         try{
             clearInterval(timer);
-			document.getElementById('countdowndays').innerHTML = "Today is the day!";
+			document.getElementById('#countdowndays').innerHTML = "Today is the day!";
             return;
         }
         catch(err){}

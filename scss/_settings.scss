@@ -324,6 +324,9 @@ h1{
 
 
 //PARTY
+.bm-info, .gm-info{
+  display:none;
+}
 
 
 //RSVP Button
@@ -421,7 +424,6 @@ margin-bottom: 0px;
   border-radius: 2px;
   line-height: 42px;
   letter-spacing: 1px;
-  font: 500 18px 'Open Sans', sans-serif;
 }
 
 
@@ -463,6 +465,7 @@ $include-html-global-classes: $include-html-classes;
 // We use these to define default font stacks
 
 $font-family-sans-serif: 'Nixie One', cursive;
+
 // $font-family-sans-serif: 'Lobster', cursive;
 $font-family-sans-serif-2: 'Lobster', cursive;
 // "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
