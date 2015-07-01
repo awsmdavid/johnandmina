@@ -214,6 +214,7 @@ h1{
 }
 
 //timeline style
+
 .path-container {
   margin-top: 50px;
   margin-bottom: 70px;
@@ -332,6 +333,10 @@ h1{
   display:none;
 }
 
+.party-subtext{
+  font-size: 20px;
+  font-weight: 800;
+}
 
 //RSVP Button
 .fancy.button {
@@ -370,6 +375,9 @@ h1{
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) inset;
 }              
 
+.registry-icon:hover{
+  opacity: .8; 
+}
 
 //RSVP
 
