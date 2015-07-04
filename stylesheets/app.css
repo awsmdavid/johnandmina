@@ -137,7 +137,7 @@ h1 {
 
 /* line 198, ../scss/_settings.scss */
 #heart-divider {
-  background: url(/assets/heartdiv.png) no-repeat scroll center bottom transparent;
+  background: url(/assets/heartdiv.png) no-repeat center bottom transparent;
   font-family: 'Great Vibes', cursive;
   font-size: 64px;
   text-align: center;
