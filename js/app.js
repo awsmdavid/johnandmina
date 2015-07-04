@@ -3,6 +3,30 @@
 $(document).foundation();
 $(document).ready(function(){
 
+    //baewatch
+    var keys = [];
+    var baewatch = "66,65,69,87,65,84,67,72";
+    $(document).keydown(function(e) {
+        keys.push(e.keyCode);
+        if (keys.toString().indexOf(baewatch) >= 0)
+        {
+            keys = [];
+            $(".baewatch").toggle();
+            $(".baewatch").animate({
+                "left": "25%"
+            }, 1000, function(){
+                $(".baewatch").css("background", "url('/assets/baewatch-sup.jpg') 0 0 no-repeat");
+            }).delay(700).animate({
+                "left": "100%",
+            }, 1500, function(){
+                $(".baewatch").toggle();
+                $(".baewatch").css("background", "url('/assets/baewatch.jpg') 0 0 no-repeat");
+                $(".baewatch").css("left","0");
+            });
+        }
+    });
+
+
     $('.bm-panel').click(function() {
         if ($('#bm-container').children(':visible').length === 0){
             $('#'+this.id+'-info').toggle( "fast", function() {

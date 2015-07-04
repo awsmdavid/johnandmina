@@ -78,6 +78,17 @@ h2{
   width: 100%;
 }
 
+.baewatch{
+  display:none;
+  position: fixed;
+  top:40px;
+  z-index: 10000000000000000;
+  left:0;
+  width: 264px;
+  height: 407px;
+  background: url('/assets/baewatch.jpg') 0 0 no-repeat;
+}
+
 .underline{
   // text-decoration: underline;
   // border-bottom: dotted #99CCFF;
